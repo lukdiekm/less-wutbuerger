@@ -1,26 +1,26 @@
 let filters = [
     {
         "url": "^https?://www.zeit.de",
-        "selector": "#comments"
+        "elements": ["#comments", ".metadata__commentcount"]
     },
     {
         "url": "^https?://www.nw.de",
-        "selector": ".comments-outer"
-    },
-    {
-        "url": "^https?://www.nw.de",
-        "selector": ".article-comments"
+        "elements": [".comments-outer", ".article-comments"]
     }
 ]
 
 filters.forEach(f => {
     if (window.location.href.match(f.url)) {
-        let e = document.querySelector(f.selector);
-        if (e === null) {
-            console.log('Wutbürgers not found :(');
-        } else {
-            e.remove();
-            console.log('Wutbrüger removed!');
-        }
+        f.elements.forEach(x => {
+            let e = document.querySelectorAll(x);
+            if (e.length > 0) {
+                e.forEach(i => {
+                    i.remove();
+                    console.log('Wutbrüger removed!');
+                });
+            } else {
+                console.log('Wutbürgers not found :(');
+            }
+        });
     }
 });
