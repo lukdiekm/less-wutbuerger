@@ -1,7 +1,7 @@
 {
   "name": "Less Wutbürger",
   "version": "0.1",
-  "description": "Remove Kommentarbereichte with too much Wutbürgers!",
+  "description": "Remove Kommentarbereiche with too much Wutbürgers!",
   "manifest_version": 2,
   "content_scripts": [
     {
