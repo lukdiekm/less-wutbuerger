@@ -1,7 +1,7 @@
 let filters = [
     {
         "url": "^https?://www.zeit.de",
-        "elements": ["#comments", ".metadata__commentcount"]
+        "elements": ["#comments", ".metadata__commentcount", ".zon-teaser-standard__commentcount"]
     },
     {
         "url": "^https?://www.nw.de",
