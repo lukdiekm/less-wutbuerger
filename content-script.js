@@ -6,6 +6,22 @@ let filters = [
     {
         "url": "^https?://www.nw.de",
         "elements": [".comments-outer", ".article-comments"]
+    },
+    {
+        "url": "^https?://www.heise.de",        
+        "elements": [".comment-button", ".a-article-meta__icon--comments", "a[name=\"meldung.newsticker.header.kommentarelesen\"]"]
+    },
+    {
+        "url": "^https?://t3n.de",        
+        "elements": [".tg-article-comments"]
+    },
+    {
+        "url": "^https?://www.dwdl.de",        
+        "elements": ["#fb-connect-comments"]
+    },
+    {
+        "url": "^https?://www.gruenderszene.de",        
+        "elements": [".comments"]
     }
 ]
 

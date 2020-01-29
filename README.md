@@ -8,12 +8,16 @@ Hide comment-sections and all the assholes within!
 - Choose **Load unpacked** (top-left)
 - Select the Projectfolder
 
-## Supportes Websites
+## Supported Websites
 
 |Lang|Site|
 |:-:|-|
 | 🇩🇪 | nw.de |
 | 🇩🇪 | zeit.de |
+| 🇩🇪 | heise.de |
+| 🇩🇪 | t3n.de |
+| 🇩🇪 | dwdl.de |
+| 🇩🇪 | gruenderszene.de |
 
 ## Contribute
 Your imporements are welcome! Share them by creating a pullrequest.
