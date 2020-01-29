@@ -8,20 +8,36 @@ let filters = [
         "elements": [".comments-outer", ".article-comments"]
     },
     {
-        "url": "^https?://www.heise.de",        
+        "url": "^https?://www.heise.de",
         "elements": [".comment-button", ".a-article-meta__icon--comments", "a[name=\"meldung.newsticker.header.kommentarelesen\"]"]
     },
     {
-        "url": "^https?://t3n.de",        
+        "url": "^https?://t3n.de",
         "elements": [".tg-article-comments"]
     },
     {
-        "url": "^https?://www.dwdl.de",        
+        "url": "^https?://www.dwdl.de",
         "elements": ["#fb-connect-comments"]
     },
     {
-        "url": "^https?://www.gruenderszene.de",        
+        "url": "^https?://www.gruenderszene.de",
         "elements": [".comments"]
+    },
+    {
+        "url": "^https?://www.t-online.de",
+        "elements": ["#talk_community", "#Tnocomments"]
+    },
+    {
+        "url": "^https?://www.spiegel.de",
+        "elements": ["a[data-component=\"TalkActivator\"]"]
+    },
+    {
+        "url": "^https?://www.welt.de",
+        "elements": ["#Comments", ".o-teaser__comment-count"]
+    },
+    {
+        "url": "^https?://www.focus.de",
+        "elements": ["#commentForm", "#comments", ".comments"]
     }
 ]
 

@@ -18,6 +18,10 @@ Hide comment-sections and all the assholes within!
 | 🇩🇪 | t3n.de |
 | 🇩🇪 | dwdl.de |
 | 🇩🇪 | gruenderszene.de |
+| 🇩🇪 | t-online.de |
+| 🇩🇪 | welt.de |
+| 🇩🇪 | spiegel.de |
+| 🇩🇪 | focus.de |
 
 ## Contribute
 Your imporements are welcome! Share them by creating a pullrequest.
