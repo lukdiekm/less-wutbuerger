@@ -9,6 +9,7 @@
         "<all_urls>"
       ],
       "js": [
+        "/filters.js",
         "/content-script.js"
       ]
     }
